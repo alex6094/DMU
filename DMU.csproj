@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="ASP.NET\ASP.NET PDF templates\" />
     <Folder Include="Multiprogramming\EvenOddServer\" />
   </ItemGroup>
 
