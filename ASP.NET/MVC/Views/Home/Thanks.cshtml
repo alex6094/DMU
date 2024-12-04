@@ -1,0 +1,21 @@
+﻿@model TemplateMVC.Models.InputResponse
+
+@{
+    ViewData["Title"] = "TemplateView";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+</head>
+<body>
+<div>
+    <h1>Thank you, @Model?.Name!</h1>
+    
+</div>
+Click <a asp-action="ListResponses">here</a> to see who is coming.
+</body>
+</html>
