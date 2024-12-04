@@ -11,7 +11,7 @@ namespace DMU.XML.CarXML
             List<Car> cars = new List<Car>();
 
             //Creates XmlReader, that takes the filepath as parameter
-            XmlReader reader = XmlReader.Create("C:\\Users\\Alexander\\RiderProjects\\DMU\\XML\\CarXML\\cars.xml");
+            XmlReader reader = XmlReader.Create("C:\\Users\\alexa\\OneDrive\\Desktop\\DMU\\XML\\CarXML\\cars.xml");
 
             //While there are cars in the list, the reader continues
             while (reader.Read())
@@ -53,7 +53,7 @@ namespace DMU.XML.CarXML
                                                         new XElement("country", $"{car.Country}"));
                 xCars.Add(xCar);
             }
-            string fileName = "C:\\Users\\Alexander\\RiderProjects\\DMU\\XML\\CarXML\\newcars.xml";
+            string fileName = "C:\\Users\\alexa\\OneDrive\\Desktop\\DMU\\XML\\CarXML\\newcars.xml";
             try
             {
                 using(FileStream fs = new FileStream(fileName, FileMode.Create))
